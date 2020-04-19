@@ -1,7 +1,12 @@
-import React from './node_modules/react';
+import React from 'react';
 
-const Panel = () => <div class="InfoPanel">
+const InfoPanel = () => <div class="infoPanel">
+    <div class="topSection">
 
+    </div>
+    <div class="bottomSection">
+        <img class="infoImg" src={require("../../Images/maxresdefault.jpg")} alt="Paladins Shot"/>
+    </div>
 </div>
 
-export default Panel;
+export default InfoPanel;

@@ -1,7 +1,7 @@
-import React from './node_modules/react';
+import React from 'react';
 
-const SiteFooter = () => <div class="footer">
-
+const Footer = () => <div class="footer">
+    <p> © Sean Heemeyer  </p>
 </div>
 
-export default SiteFooter;
+export default Footer;

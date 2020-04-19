@@ -1,4 +1,4 @@
-import React, {Component} from './node_modules/react';
+import React, {Component} from 'react';
 
 class navbar extends React.Component {
     constructor(){
@@ -6,7 +6,7 @@ class navbar extends React.Component {
         this.state = {
             dropdownNav: <nav class="navbar"> 
             <ul>
-                <li> <img src={require('../flame.png')}  width="40" height="40" alt="logo inferno"/> </li>
+                <li> <img src={require('../../Images/flame.png')}  width="40" height="40" alt="logo inferno"/> </li>
                 <li> <p> Inferno Alliance </p></li>
                 <li>
                     <div class="buttonContainer" onClick={() => this.DropNav()}>
@@ -21,8 +21,9 @@ class navbar extends React.Component {
 
             <ul>
                 <li> <p> Games </p> </li>
-                <li> <p> Community </p> </li>
-                <li> <p> Contact Us </p></li>
+                <li> <p> Profiles </p> </li>
+                <li> <p> Community Awards </p></li>
+                <li> <p> Game Shots </p></li>
             </ul>
         </nav>
         }
@@ -33,7 +34,7 @@ class navbar extends React.Component {
             dropdownNav: <nav> 
                 <div class="navbarDropped">
                 <ul>
-                  <li> <img src={require('../flame.png')}  width="40" height="40" alt="logo inferno"/> </li>
+                  <li> <img src={require('../../Images/flame.png')}  width="40" height="40" alt="logo inferno"/> </li>
                   <li> <p> Inferno Alliance </p></li>
                   <li>
                         <div class="buttonContainer" onClick={() => this.RetractNav()}>
@@ -49,8 +50,9 @@ class navbar extends React.Component {
                 <div class="navItems">
                     <ul>
                         <li> <p> Games </p> </li>
-                        <li> <p> Community </p> </li>
-                        <li> <p> Contact Us </p></li>
+                        <li> <p> Profiles </p> </li>
+                        <li> <p> Community Awards </p></li>
+                        <li> <p> Game Shots </p></li>
                     </ul>
                 </div>
         </nav>
@@ -61,7 +63,7 @@ class navbar extends React.Component {
         this.setState({
             dropdownNav: <nav class="navbar"> 
             <ul>
-            <li> <img src={require('../flame.png')}  width="40" height="40" alt="logo inferno"/> </li>
+            <li> <img src={require('../../Images/flame.png')}  width="40" height="40" alt="logo inferno"/> </li>
             <li> <p> Inferno Alliance </p></li>
             <li>
                 <div class="buttonContainer" onClick={() => this.DropNav()}>
@@ -76,8 +78,9 @@ class navbar extends React.Component {
 
         <ul id="NavItems">
             <li> <p> Games </p> </li>
-            <li> <p> Community </p> </li>
-            <li> <p> Contact Us </p></li>
+            <li> <p> Profiles </p> </li>
+            <li> <p> Community Awards </p></li>
+            <li> <p> Game Shots </p></li>
         </ul>
     </nav>})
     }

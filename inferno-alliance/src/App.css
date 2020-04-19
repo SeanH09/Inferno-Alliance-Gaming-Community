@@ -1,5 +1,6 @@
 .App {
   text-align: center;
+  overflow-x: hidden;
 }
 
 .App-logo {
@@ -55,7 +56,7 @@ background-color: #000000;}
 
   .navItems {
     width: 100%;
-    height: 140px;
+    height: 200px;
     border-style: solid;
     border-color: #ffffff;
     border-bottom: none;
@@ -94,8 +95,6 @@ background-color: #000000;}
   left: 2px;
 }
 
-
-
 /*for slideshow*/
 
 .CoverPhoto {
@@ -103,6 +102,50 @@ background-color: #000000;}
   width: 100%;
 }
 
+.CoverPhoto img {
+  height: auto;
+}
+
+/*For information panel*/
+
+.infoPanel {
+  width: 100%;
+  background-color: #000000;
+  height: 1200px;
+  overflow: hidden;
+}
+
+.topSection {
+  width: 100%;
+  height: 400px;
+}
+
+.bottomSection {
+  width: 100%;
+  height: 800px;
+}
+
+/* Footer */
+
+.footer {
+  width: 100%;
+  height: 300px;
+  background-color: #000000;
+  border-style: solid;
+  border-color: #ffffff;
+  border-bottom: hidden;
+  border-left: hidden;
+  border-right: hidden;
+}
+
+.footer p {
+  padding-top: 50px;
+  font-family: arial;
+  color: white;
+  text-align: left;
+  position: relative;
+  left: 100px;
+}
 
 @keyframes App-logo-spin {
   from {
@@ -117,6 +160,8 @@ background-color: #000000;}
   .line{
     visibility: visible;
   }
+
+  /* For navbar? */
 
   .buttonContainer {
     width: 30px;
@@ -137,4 +182,17 @@ background-color: #000000;}
     position: relative;
     left: 0px;
   }
+
+  /*footer*/
+
+  .footer p {
+    padding-top: 50px;
+    font-family: arial;
+    color: white;
+    text-align: center;
+    position: relative;
+    left: 0px;
+  }
+
+
 }
