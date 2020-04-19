@@ -1,4 +1,11 @@
 import React from 'react';
+import Background from '../../Images/maxresdefault.jpg';
+
+var sectionStyle = {
+    width: "100%",
+    height: "100%",
+    backgroundImage: `url(${Background})`
+  };
 
 const InfoPanel = () => <div class="infoPanel">
     <div class="topSection">
@@ -20,11 +27,11 @@ const InfoPanel = () => <div class="infoPanel">
         </div>
     </div>
     <div class="bottomSection">
-        <img class="infoImg" src={require("../../Images/maxresdefault.jpg")} alt="Paladins Shot"/>
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/a0Ip_Om8OjE" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <section style={sectionStyle}>
+        <iframe class="LotroVideo" width="560" height="315" src="https://www.youtube.com/embed/a0Ip_Om8OjE" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </section>
+        
     </div>
 </div>
-
-//how to set image as a background image?
 
 export default InfoPanel;
