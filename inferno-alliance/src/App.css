@@ -97,6 +97,10 @@ background-color: #000000;}
 
 /*for slideshow*/
 
+.SlideShow {
+  overflow: hidden;
+}
+
 .CoverPhoto {
   height: auto;
   width: 100%;
@@ -105,6 +109,8 @@ background-color: #000000;}
 .CoverPhoto img {
   height: auto;
 }
+
+
 
 /*For information panel*/
 
@@ -240,6 +246,7 @@ background-color: #000000;}
     height: 300px;
   }
 
+ 
 
   /*footer*/
 
