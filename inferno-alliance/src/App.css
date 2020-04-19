@@ -120,10 +120,51 @@ background-color: #000000;}
   height: 400px;
 }
 
+.introduction {
+  float: left;
+  max-width: 700px;
+  padding-left: 100px;
+  padding-top: 20px;
+}
+
+.introduction h1 {
+  text-align: left;
+  font-family: arial;
+  color: #ffffff;
+}
+
+.introduction p {
+  text-align: left;
+  font-family: arial;
+  color: #ffffff;
+}
+
+.ImageLotro1{
+  padding-top: 20px;
+}
+
+.infologo {
+  width: 100px;
+  height: 100px;
+}
+
+.infologo:hover {
+  width: 100px;
+  height: 100px;
+  opacity: 0.3;
+}
+
+.fellowship {
+  padding-top: 20px;
+  max-width: 550px;
+  height: 300px;
+}
+
 .bottomSection {
   width: 100%;
   height: 800px;
 }
+
 
 /* Footer */
 
@@ -161,7 +202,7 @@ background-color: #000000;}
     visibility: visible;
   }
 
-  /* For navbar? */
+  /* For navbar */
 
   .buttonContainer {
     width: 30px;
@@ -182,6 +223,23 @@ background-color: #000000;}
     position: relative;
     left: 0px;
   }
+
+  /*info panel*/
+
+  .introduction {
+    float: left;
+    max-width: 700px;
+    padding-left: 30px;
+    padding-top: 20px;
+  }
+
+  .fellowship {
+    float: left;
+    padding-top: 20px;
+    max-width: 550px;
+    height: 300px;
+  }
+
 
   /*footer*/
 
